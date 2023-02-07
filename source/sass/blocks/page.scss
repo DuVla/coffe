@@ -1,0 +1,25 @@
+.page__body {
+  min-width: 320px;
+  background-color: $white;
+  margin: 0 auto;
+  height: 100%;
+  font-family: "montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: $black;
+}
+
+//tablet
+@media (min-width: $tablet-width) {
+  .page__body {
+    min-width: 768px;
+  }
+}
+
+// desktop-version
+@media (min-width: $desktop-width) {
+  .page__body {
+    min-width: 1440px;
+  }
+}

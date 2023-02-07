@@ -1,0 +1,14 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  padding: 12px 0 7px 20px;
+  box-sizing: border-box;
+  background-color: white;
+  z-index: 2;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+// mobile version
